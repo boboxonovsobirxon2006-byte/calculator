@@ -1,7 +1,6 @@
 import ast
 import operator as op
 from kivy import platform
-
 from kivy.app import App
 from kivy.core.window import Window
 from kivy.uix.boxlayout import BoxLayout
