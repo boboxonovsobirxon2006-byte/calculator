@@ -25,6 +25,7 @@ jobs:
           pip install "buildozer==1.5.0" cython==0.29.36 virtualenv
 
       - name: Build APK with Buildozer
+        # 'yes |' savollarga avtomatik 'y' javobini beradi
         run: yes | buildozer -v android debug
 
       - name: Upload APK
